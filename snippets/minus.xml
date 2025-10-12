@@ -4,7 +4,7 @@
           fetch="https://gitlab.com/" />
 
   <remote name="minus"
-          fetch="https://github.com/Project-MinusOS"
+          fetch="https://github.com/Pycoder1998"
           revision="balsam" />
 
   <!-- General Repos -->
@@ -65,4 +65,5 @@
   <project path="system/extras" name="system_extras" remote="minus" />
 
   <project path="kernel/configs" name="kernel_configs" remote="minus" />
+
 </manifest>
