@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Dein eigener GitHub-Remote -->
+  <remote
+      name="minus"
+      fetch="https://github.com/Pycoder1998"
+      revision="balsam" />
+
+  <!-- Settings-App -->
+  <project
+      name="packages_apps_Settings"
+      path="packages/apps/Settings"
+      remote="minus"
+      revision="balsam" />
+
+  <!-- Bluetooth-Modul -->
+  <project
+      name="packages_modules_Bluetooth"
+      path="packages/modules/Bluetooth"
+      remote="minus"
+      revision="balsam" />
+
+</manifest>
