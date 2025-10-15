@@ -1031,4 +1031,7 @@
   <!-- LineageOS -->
   <include name="snippets/lineage.xml" />
 
+  <!-- My changes -->
+  <include name="snippets/my-changes.xml" />
+
 </manifest>
