@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Dein eigener GitHub-Remote -->
-  <remote
-      name="minus"
-      fetch="https://github.com/Pycoder1998"
-      revision="balsam" />
+    <!-- Default remotes -->
+    <remote name="codeberg"
+            fetch="https://codeberg.org/USER7770"
+            revision="balsam" />
 
-  <!-- Settings-App -->
-  <project
-      name="packages_apps_Settings"
-      path="packages/apps/Settings"
-      remote="minus"
-      revision="balsam" />
+    <remote name="github"
+            fetch="https://github.com/Pycoder1998"
+            revision="balsam" />
 
-  <!-- Bluetooth-Modul -->
-  <project
-      name="packages_modules_Bluetooth"
-      path="packages/modules/Bluetooth"
-      remote="minus"
-      revision="balsam" />
+
+    <!-- ========== MINUSOS MODIFIED REPOSITORIES ========== -->
+
+    <!-- Frameworks -->
+    <project path="frameworks/base" name="frameworks_base" remote="github" revision="balsam" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="github" revision="balsam" />
+
+    <!-- Packages -->
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="github" revision="balsam" />
+    <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="github" revision="balsam" />
+    <project path="packages/services/Telephony" name="packages_services_Telephony" remote="github" revision="balsam" />
+    <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="github" revision="balsam" />
+    <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="github" revision="balsam" />
+
+    <!-- Hardware -->
+    <project path="hardware/sony" name="hardware_sony" remote="github" revision="balsam" />
 
 </manifest>
