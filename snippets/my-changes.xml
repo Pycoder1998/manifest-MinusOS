@@ -20,9 +20,13 @@
     <!-- Packages -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="github" revision="balsam" />
     <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="github" revision="balsam" />
+    <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="github" revision="balsam" />
+    <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="github" revision="balsam" />
+    <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="github" revision="balsam" />
     <project path="packages/services/Telephony" name="packages_services_Telephony" remote="github" revision="balsam" />
     <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="github" revision="balsam" />
     <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="github" revision="balsam" />
+    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="github" revision="balsam" />
 
     <!-- Hardware -->
     <project path="hardware/sony" name="hardware_sony" remote="github" revision="balsam" />
