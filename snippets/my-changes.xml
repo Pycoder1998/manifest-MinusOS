@@ -31,4 +31,7 @@
     <!-- Hardware -->
     <project path="hardware/sony" name="hardware_sony" remote="github" revision="balsam" />
 
+    <!-- Device -->
+    <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="github" revision="balsam" />
+
 </manifest>
